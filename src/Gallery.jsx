@@ -15,7 +15,6 @@ function Gallery() {
       return result.data;
     },
   });
-  console.log(response);
   if (response.isLoading) {
     return (
       <section className="image-container">
